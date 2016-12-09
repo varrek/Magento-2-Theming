@@ -6,6 +6,6 @@
 -->
 <theme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/theme.xsd">
-    <title>Training exercise2</title>
+    <title>Training exercise1</title>
     <parent>Magento/Luma</parent>
 </theme>
