@@ -10,4 +10,16 @@
             </argument>
         </arguments>
     </type>
+    <type name="Magento\Catalog\Model\Product">
+        <plugin name="magento-catalog-product-plugin"
+                type="Training\Test\Model\Product" sortOrder="1" disabled="false"/>
+    </type>
+    <type name="Magento\Theme\Block\Html\Footer">
+        <plugin name="magento-html-footer-plugin"
+                type="Training\Test\Block\Html\Footer" sortOrder="1" disabled="false"/>
+    </type>
+    <type name="Magento\Theme\Block\Html\Breadcrumbs">
+        <plugin name="magento-html-breadcrumbs-plugin"
+                type="Training\Test\Block\Html\Breadcrumbs" sortOrder="1" disabled="false"/>
+    </type>
 </config>
